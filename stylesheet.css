@@ -9,8 +9,9 @@ body {
 }
 .header {
     display: flex;
-    margin: 8px 80px;
+    margin: 8px 160px;
     align-items: center;
+    justify-content: space-between;
 
 }
 .logo {
@@ -20,6 +21,7 @@ body {
 }
 ul {
     display: flex;
+    gap: 16px;
 
 }
 a {
