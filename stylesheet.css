@@ -55,6 +55,12 @@ a {
     padding-bottom: 60px; */
 
 }
+.hero-img {
+    width: 450px;
+    height: 220px;
+    /* align-self: center; */
+  /*   flex: auto; */
+}
 h1 {
     color: #f9faf8;
     font-size: 48px;
@@ -98,13 +104,13 @@ h2 {
 
 }
 
+
+
 img {
-    border-width: 2px;
-    border-color: #3882f6;
-    width: 450px;
-    height: 220px;
-    align-self: center;
-    flex: auto;
+        border-width: 2px;
+        border-color: #3882f6;
+        width: 450px;
+        height: 220px;
 }
 
 li {
