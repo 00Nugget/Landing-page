@@ -31,26 +31,42 @@ a {
     font-size: 18px;
 }
 .main {
-   
-}
-.left-container, .right-container {
+   display: flex;
+   margin: 40px 160px;
+   align-items: center;
+   justify-content: space-between;
 
 }
+.left-container, .right-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 100px;
+    flex: 1;
+    padding-bottom: 80px;
+}
+
 h1 {
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
+    margin: 0px;
 }
 
 p {
     color: #e5e7eb;
     font-size: 18px;
+    margin: 0px;
 }
 .button {
     color: #e5e7eb;
     background-color: #3882f6;
     font-size: 18px;
-    border-radius: 8px;
+    font-weight: bold;
+    border-radius: 6px;
+    max-width: 100px;
+    border: none;
+    padding: 4px 16px;
+    margin-top: 8px;
 }
 
 .center {
