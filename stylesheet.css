@@ -5,6 +5,7 @@ body {
 
 .head-container {
     background-color: #1f2937;
+    padding-bottom: 40px;
 
 }
 .header {
@@ -35,27 +36,42 @@ a {
    margin: 40px 160px;
    align-items: center;
    justify-content: space-between;
+   gap: 20px;
 
 }
-.left-container, .right-container {
+.left-container {
     display: flex;
     flex-direction: column;
-    min-width: 100px;
-    flex: 1;
-    padding-bottom: 80px;
+   /*  min-width: 150px; */
+    height: 300px;
+    justify-content: center;
+   
+   
+    
 }
+.right-container {
+    display: flex;
+    /* padding-top: 60px;
+    padding-bottom: 60px; */
 
+}
 h1 {
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
     margin: 0px;
+    max-width: 350px;
+    padding-bottom: 2px;
+    
 }
 
 p {
     color: #e5e7eb;
     font-size: 18px;
     margin: 0px;
+    width: 400px;
+    padding-bottom: 2px;
+    
 }
 .button {
     color: #e5e7eb;
@@ -85,8 +101,10 @@ h2 {
 img {
     border-width: 2px;
     border-color: #3882f6;
-    min-width: 200px;
-    min-height: 200px;
+    width: 450px;
+    height: 220px;
+    align-self: center;
+    flex: auto;
 }
 
 li {
