@@ -58,6 +58,7 @@ a {
 .hero-img {
     width: 450px;
     height: 220px;
+    border: none;
     /* align-self: center; */
   /*   flex: auto; */
 }
@@ -107,12 +108,26 @@ h2 {
 
 
 img {
-        border-width: 2px;
-        border-color: #3882f6;
-        width: 450px;
-        height: 220px;
+        border: 3px solid #3882f6;
+        width: 120px;
+        height: 120px;
+        border-radius: 10px;
 }
 
+
+ .image-containers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+ }
+
+ h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+ }
 li {
     font-size: 18px;
     color: #e5e7eb;
