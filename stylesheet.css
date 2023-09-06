@@ -108,9 +108,9 @@ p {
     font-size: 18px;
     font-weight: bold;
     border-radius: 6px;
-    max-width: 100px;
+    max-width: 120px;
     border: none;
-    padding: 4px 16px;
+    padding: 8px 20px;
     margin-top: 8px;
 }
 
