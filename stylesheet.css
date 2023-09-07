@@ -238,8 +238,10 @@ blockquote {
     color: #1f2937;
     font-size: 36px;
     font-style: italic;
+    font-weight: 200;
     width: 798px;
     margin-top: 100px;
+    margin-bottom: 0px;
 }
 
 /* h3 {
@@ -260,6 +262,7 @@ blockquote {
     justify-content: flex-end;
     width: 798px;
     margin-bottom: 100px;
+    margin-top: 0px;
 }
 .sub-floor {
     display: flex;
