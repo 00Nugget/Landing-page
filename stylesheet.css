@@ -1,5 +1,5 @@
 body {
-    font-family: "Inter" Arial, Helvetica, sans-serif ;
+    font-family: "Inter", Arial, Helvetica, sans-serif ;
     margin: 0;
 }
 
@@ -314,7 +314,16 @@ blockquote {
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 18px;
     color: #e5e7eb;
     background-color: #1f2937;
+}
+
+footer {
+    margin: 20px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
