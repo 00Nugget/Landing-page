@@ -172,12 +172,12 @@ h2 {
 
 img {
         border: 4px solid #3882f6;
-        width: 155px;
-        height: 155px;
+        width: 165px;
+        height: 165px;
         border-radius: 10px;
 }
 .hero-img {
-      width: 560px;
+      width: 540px;
       height: 260px;
       border: none;
       border-radius: 0;
@@ -210,8 +210,9 @@ img {
     color: #333b45;
     text-decoration: none;
     list-style-type: none;
-    width: 160px;
+    width: 175px;
     text-align: center;
+    margin-top: 1px;
 
  }
 
@@ -305,13 +306,13 @@ blockquote {
     padding: 0px; 
 }
 .bottom-button {
-    border: 3px solid #e5e7eb;
-    color: #e5e7eb;
+    border: 3px solid #f9faf8;
+    color: #f9faf8;
     background-color: #3882f6;
     font-size: 18px;
     font-weight: bold;
     border-radius: 6px;
-    max-width: 120px;
+    width: 120px;
     padding: 8px 20px;
    
 }
@@ -320,13 +321,11 @@ blockquote {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
-    color: #e5e7eb;
     background-color: #1f2937;
 }
 
 footer {
     margin: 20px;
     font-size: 18px;
-    color: #e5e7eb;
+    color: #f9faf8;
 }
