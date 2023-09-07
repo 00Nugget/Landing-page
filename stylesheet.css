@@ -23,17 +23,19 @@ body {
     /* gap: 36px; */
     margin-top: 6px;
     padding: 0;
+    
 }
 .logo {
     color: #f9faf8;
     font-size: 24px;
     font-weight: bold;
+
 }
 .main {
     display: flex;
    /*  margin: 40px 160px; */
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
     margin: 0px 350px 120px;
  
@@ -48,6 +50,7 @@ body {
     display: flex;
     justify-content: flex-end;
     padding: 0;
+    gap: 30px;
     /* min-width: 300px; */
     /* margin-left: 300px; */
     
@@ -56,10 +59,12 @@ body {
 ol > li {
     text-decoration: none;
     list-style-type: none;
-    padding: 0px 16px;
+   
+    /* padding: 0px 16px; */
  }
 
  a {
+    
     color: #e5e7eb;
     font-size: 18px;
     text-decoration: none;
@@ -106,10 +111,10 @@ a {
 .left-container {
     display: flex;
     flex-direction: column;
-   /*  min-width: 150px; */
+    max-width: 650px;
    /*  height: 260px; */
     justify-content: flex-start;
-    align-self: stretch;
+    align-items: stretch;
     padding: 0px;
     margin: 0px;
     flex: 1;
@@ -119,7 +124,7 @@ a {
     color: #e5e7eb;
     font-size: 18px;
     margin: 0px;
-    max-width: 400px;
+    max-width: 480px;
     padding-bottom: 2px;
     
 }
@@ -135,7 +140,7 @@ h1 {
     font-size: 48px;
     font-weight: bolder;
     margin: 0px;
-    max-width: 350px;
+    max-width: 400px;
     padding: 0px;
     
 }
@@ -177,7 +182,7 @@ img {
         border-radius: 10px;
 }
 .hero-img {
-      width: 540px;
+      width: 500px;
       height: 260px;
       border: none;
       border-radius: 0;
@@ -232,6 +237,7 @@ img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 0px 400px;
 
 
 }
@@ -240,9 +246,11 @@ blockquote {
     font-size: 36px;
     font-style: italic;
     font-weight: 200;
-    width: 798px;
-    margin-top: 100px;
-    margin-bottom: 0px;
+    width: 847px;
+   /*  margin-top: 100px;
+    margin-bottom: 0px; */
+    margin: 100px 0px 0px;
+    
 }
 
 /* h3 {
