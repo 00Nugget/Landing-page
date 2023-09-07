@@ -1,6 +1,9 @@
 body {
     font-family: "Inter", Arial, Helvetica, sans-serif ;
     margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .head-container {
@@ -169,13 +172,14 @@ h1 {
 .center {
     display: flex;
     justify-content: center;
-    margin: 20px 400px 100px;
+    margin: 20px 350px 100px;
    /*  padding: 20px; */
 }
 .center_container {
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
+
 }
 h2 {
     color: #1f2937;
@@ -284,7 +288,12 @@ blockquote {
 }
 .sub-floor {
     display: flex;
-    margin: 80px 350px;
+    /* margin: 80px 1710px; */
+    margin: 80px 0px 80px;
+    flex: 1;
+    justify-content: center;
+
+    
 
 }
 
@@ -293,11 +302,13 @@ blockquote {
     background-color: #3882f6;
     color: #e5e7eb;
     justify-content: space-between;
-    flex-grow: 1;
+    flex-grow: 0;
     flex-shrink: 0;
     padding: 40px 100px;
     border-radius: 6px;
     max-height: 100px;
+    min-width: 820px;
+    margin: 0px 350px 0px;
     gap: 80px;
 
 }
@@ -334,7 +345,7 @@ blockquote {
    
 }
 
-.footer {
+.basement {
     display: flex;
     justify-content: center;
     align-items: center;
