@@ -5,7 +5,7 @@ body {
 
 .head-container {
     background-color: #1f2937;
-    padding: 10px 300px 120px;
+    padding: 10px 350px 120px;
 
 }
 .header {
@@ -256,13 +256,25 @@ blockquote {
     margin-bottom: 100px;
 }
 .sub-floor {
+    display: flex;
+    margin: 50px 350px;
 
 }
 
 .sub-floor-container {
+    display: flex;
+    flex: 1 0 0;
     background-color: #3882f6;
     color: #e5e7eb;
+    justify-content: space-between;
 
+}
+.sub-left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 44px;
 }
 
 .bottom-button {
