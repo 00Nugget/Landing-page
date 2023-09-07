@@ -15,14 +15,15 @@ body {
     display: flex;
  /*    margin: 0px 160px; */
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0px 350px 120px;
+    /* max-width: 1000px; */
 
 }
 .header-list {
      display: flex;
-    justify-content: space-between;
-    align-items: center;
+  /*   justify-content: flex-end;
+    align-items: center; */
     /* gap: 36px; */
     margin-top: 6px;
     padding: 0;
@@ -40,7 +41,7 @@ body {
     align-items: stretch;
     padding: 0px;
     margin: 0px;
-    flex: 1;
+    /* flex: 1; */
 
 }
 .main {
@@ -50,6 +51,7 @@ body {
     justify-content: center;
     gap: 20px;
     margin: 0px 350px 120px;
+    /* max-width: 1000px; */
  
  }
  
